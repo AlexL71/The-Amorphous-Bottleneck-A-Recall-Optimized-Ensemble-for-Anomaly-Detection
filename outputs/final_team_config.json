@@ -1,0 +1,13 @@
+{
+    "optimal_iou": 0.55,
+    "optimal_conf": 0.9,
+    "final_score": 1550.7,
+    "team": [
+        "exp01_baseline_best.pth",
+        "exp02_hflip_best.pth",
+        "exp07_randomresize_randomcrop_best.pth",
+        "exp18_motionblur_best.pth",
+        "exp04_rotate_best.pth",
+        "exp03_vflip_best.pth"
+    ]
+}
