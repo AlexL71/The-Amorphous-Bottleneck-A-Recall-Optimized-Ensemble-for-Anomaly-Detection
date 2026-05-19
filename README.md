@@ -47,10 +47,10 @@ amorphous-bottleneck/
 │   ├── eda/                                # Figures 1-3 (area, contrast, demo)
 │   ├── results/                            # Figures 7-8 (PR curves, F1 curves)
 │   └── visual_audit/                       # Figures 9-11 (Rescues, Regressions, Ghosts)
-│       ├── RESCUES/                        # 116 annotated rescue images
-│       ├── REGRESSIONS/                    # 5 annotated regression images
-│       ├── BOTH_MISSED/                    # 115 annotated missed images
-│       └── GHOSTS/                         # 114 annotated ghost images
+│       ├── RESCUES/                        # 116 images containing 135 rescued defect instances
+│       ├── REGRESSIONS/                    # 5 images containing 5 regression instances
+│       ├── BOTH_MISSED/                    # 115 images containing 140 missed defect instances
+│       └── GHOSTS/                         # 114 images containing 168 ghost defect instances
 ├── data/
 │   └── sample/                             # Small sample for code verification
 │       ├── sample_annotations.json
