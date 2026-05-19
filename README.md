@@ -16,7 +16,7 @@ Using road defect detection as a case study, we train 19 specialist Mask R-CNN m
 | Rescues / Regressions | — | **135 / 5** |
 | Ghost Detections | — | 168 |
 
-The ensemble shifts the optimal F1 confidence threshold from 0.75 to 0.90, producing highly decisive predictions. The 168 Ghost detections provide empirical evidence of the **Precision Paradox**: standard precision metrics penalize models for detecting valid defects absent from the ground truth.
+The ensemble shifts the optimal F1 confidence threshold from 0.75 to 0.90, producing highly decisive predictions. A systematic visual audit identified a total of 168 'Ghost' bounding box instances distributed across 114 individual images. These detections yield concrete empirical evidence of the Precision Paradox, confirming that standard precision metrics penalize algorithmic performance when a model detects valid physical defects lacking ground truth annotation.
 
 ## Pipeline Overview
 
